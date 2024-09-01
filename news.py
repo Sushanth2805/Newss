@@ -62,6 +62,7 @@ if st.button("Get News"):
         st.error("Failed to fetch news. Please check your API key and parameters.")
 
 # Add an info box for users
+st.info("This app uses the NewsAPI to fetch and display the latest news based on the selected country, category, and optional keyword.")
 
 # Hide the Streamlit footer
 hide_footer_style = """
